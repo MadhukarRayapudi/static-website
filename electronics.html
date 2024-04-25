@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionElectronicsHomePage">
+        <div class="bg-container d-flex flex-column justify-content-center">
+            <div class="name-card">
+                <h1 class="main-heading"> One Stop </h1>
+                <p class="paragraph"> for all electronics </p>
+            </div>
+            <button class="btn btn-danger shop-button" onclick="display('sectionChooseToContinuePage')"> Shop now </button>
+
+        </div>
+    </div>
+
+    <div id="sectionChooseToContinuePage">
+        <div class="types-of-gadgets-container">
+            <h1 class="electronics-heading"> Choose to continue! </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-card-container" onclick="display('sectionMobilesBrandModelPage')">
+                    <img src="https://i.pinimg.com/236x/b5/83/bf/b583bfdfe0b4b94328a48fb654b8820f.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> Mobiles </h1>
+                </div>
+
+                <div class="electronics-card-container" onclick="display('sectionTwsBrandModelsPage')">
+                    <img src="https://i.pinimg.com/564x/32/4e/ae/324eae20bf792a24901205f8f007b372.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> TWS </h1>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-card-container" onclick="display('sectionLaptopsBrandModelPage')">
+                    <img src="https://i.pinimg.com/236x/c7/c6/00/c7c6009aaed031607486e827e35f993f.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> Laptops </h1>
+                </div>
+
+                <div class="electronics-card-container" onclick="display('sectionSmartWatchesBrandModelPage')">
+                    <img src="https://i.pinimg.com/236x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> Smart Watches </h1>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-card-container" onclick="display('sectionProjectorsBrandModelPage')">
+                    <img src="https://i.pinimg.com/236x/92/2c/a7/922ca7a5c0599459efaf4163132342a8.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> Projectors </h1>
+                </div>
+
+                <div class="electronics-card-container" onclick="display('sectionOthersPage')">
+                    <img src="https://i.pinimg.com/236x/24/28/7e/24287e0cb8612f5cdede3b4cde26e512.jpg" class="electronics-card-image" />
+                    <h1 class="electronics-card-name"> Others </h1>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionElectronicsHomePage')"> Back </button>
+        </div>
+    </div>
+
+    <div id="sectionTwsBrandModelsPage">
+        <div class="electronics-models-bg-container">
+            <h1 class="electronics-brand-heading"> Scroll Down </h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TQbWhWpqiqE?rel=0" allowfullscreen></iframe>
+            </div>
+
+            <h1 class="electronics-brand-heading"> Shop Oneplus TWS </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/f7/34/5d/f7345d8242a413ebc0efa082c5b75264.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> buds pro2 </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/79/2e/0c/792e0cacf53041da7f0a75b0da4a17be.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> buds pro2 </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ql6mhhHCldY?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop Apple TWS </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/e9/eb/47/e9eb4738ae3c8d86ec40dd545b5e1010.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> airpods pro </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/88/de/9d/88de9d98ee1fe37e7181613a21904040.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> airpods max </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VtABRn0zrsw?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop Oppo TWS </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/58/24/2a/58242a1d4cedaebf52074a032715abf8.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> enco X2 </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/b8/63/9b/b8639b13444c2067c5e31eb534044cc9.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> enco air 3pro </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A2LS-gvQk-A?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop boAt TWS </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt-Airdopes-500-ANC.jpg?v=1682576552" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Airdopes 500 ANC </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/ae22e3a6-9590-401a-94f6-d8ecf42b4932_large.png?v=1673002621" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Rockerz 450 </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <div id="sectionMobilesBrandModelPage">
+        <div class="electronics-models-bg-container">
+            <h1 class="electronics-brand-heading"> Scroll Down </h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/URbHvaJeQYU?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Oneplus </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/83/1b/4e/831b4e9b8c6c1b88cbe7f878b7223be7.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Oneplus Open </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/9b/c1/32/9bc1326d87c3e10f5598e82e169c5244.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Oneplus 11pro </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xqyUdNxWazA?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Iphone </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/2e/1b/af/2e1baff3f5e91308cb11b8088cab3f37.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Iphone 15pro Max </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/15/59/57/1559579c4c4b933ef63b07dba4c9d098.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Iphone 13pro Max </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EETL334m4xQ?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Oppo </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/45/69/66/456966f52460b097d4868961b08ece97.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Oppo find n3 Flip </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/39/76/93/3976934d9462b12ce4bf430ac078f56e.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Oppo Reno10 Pro+ </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MeuycYr8qEo?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Samsung </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/ae/08/f8/ae08f80abf35f14b7bbef13eb6d6e8d6.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Galaxy Z flip5 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/96/bb/24/96bb24e6f3d79508ff03cc4206aeb8f3.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Galaxy S23 Ultra </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <div id="sectionLaptopsBrandModelPage">
+        <div class="electronics-models-bg-container">
+            <h1 class="electronics-brand-heading"> Scroll Down </h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0pg_Y41waaE?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Macbook </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/52/23/0b/52230bfef638b026f653af0a1f22c169.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> 2023 MacBook pro </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/6b/2a/7c/6b2a7c75423a31306a83998fba334061.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> MacBook air </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KdB4v9ssdIY?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for HP </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/61/92/50/6192501286a9fd6a8649cee568e4a2e9.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Envy x360 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/1b/2a/2f/1b2a2f5b46bc67d76d112234344dd57f.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Pavilion 15 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4M3eqSO-PxU?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Dell </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/ab/f8/d6/abf8d6dfd42646cbd18e54a3de21ea97.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> inspiron 14 and 16plus </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/f5/95/1b/f5951b5564d563e51f53a5cdec268815.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> xps 13plus </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q4F6tn0W778?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for ASUS </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/20/6d/31/206d31cc983c7acd81f37f4517a4d6f0.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Zenbook Pro 16X OLED </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/35/76/2b/35762b3e1765f518f7fc85af34acac92.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> ProArt Studiobook 16 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <div id="sectionSmartWatchesBrandModelPage">
+        <div class="electronics-models-bg-container">
+            <h1 class="electronics-brand-heading"> Scroll Down </h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Nvb_Kta7v6U?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Apple iWatch </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/df/3e/70/df3e702e6af27a1e8f979b755ae0afe7.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Series 9 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Watch SE </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E8_WEgnP2eI?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Amazfit </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/5d/c1/cc/5dc1cc23daaeeaf48e7c7c605288e158.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> GTR 4 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/da/1a/5a/da1a5a648f56f19b898ad9e91d2d16d5.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> GTS 2 Mini </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hqz5gFNRRm0-PxU?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Fossil </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/85/9a/23/859a2327a537fd2a1581ae68c742b7d4.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Gen 6 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/7d/ab/22/7dab22f9e6d0cabf18f93b3cbf718217.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Gen 5E </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <div id="sectionProjectorsBrandModelPage">
+        <div class="electronics-models-bg-container">
+            <h1 class="electronics-brand-heading"> Scroll Down </h1>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1paIjz1ziPE?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for BenQ </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/ad/c0/e2/adc0e296225d7f6dc4969f13a130ad2d.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> GP 500 </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/65/d8/0e/65d80ef9cdd386f6149b89d144396c3c.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> DLP(HT2050) </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_iM62SL2PYU?rel=0" allowfullscreen></iframe>
+            </div>
+            <h1 class="electronics-brand-heading"> Shop for Egate </h1>
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/5f/b6/07/5fb6075be7e5a760470f8d882a72cf96.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> i9 Pro </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/c9/13/46/c91346682097018c4ea786e0974264d9.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> i9 Real </h1>
+                    <p class="electronics-models-card-description"> Tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <div id="sectionOthersPage">
+        <div class="electronics-models-bg-container">
+
+            <h1 class="electronics-brand-heading"> Shop for Oneplus Chargers and cables </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://res.cloudinary.com/dwtnrleoa/image/upload/v1699718565/Screenshot_2023-11-11_213218_mrt63i.png" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Wrap charger adapter 80W </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://res.cloudinary.com/dwtnrleoa/image/upload/v1699718367/Screenshot_2023-11-11_212740_qwf7az.png" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> SuperVooc cable </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+
+            <h1 class="electronics-brand-heading"> Shop for Apple Adapters and Cables </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/34/c8/78/34c878f064265ea8e5cac745fc924baf.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> 20W adapter with cable </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+            </div>
+            <button class="more-button"> More </button>
+
+            <h1 class="electronics-brand-heading"> Shop for Oppo Adapters and cables </h1>
+
+            <div class="d-flex flex-row">
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/564x/ca/85/98/ca8598e47e1eed1a29240480f58d57ab.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> AirVooc 15W </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+
+
+                <div class="electronics-models-card-container">
+                    <img src="https://i.pinimg.com/236x/79/3b/cf/793bcf6d37076f75aefb9788bf330ac7.jpg" class="electronics-models-card-image" />
+                    <h1 class="electronics-models-card-heading"> Vooc cable </h1>
+                    <p class="electronics-models-card-description"> tap to see details </p>
+                </div>
+            </div>
+            <button class="more-button"> More </button>
+
+        </div>
+        <button class="btn btn-dark back-button" onclick="display('sectionChooseToContinuePage')"> Back </button>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
